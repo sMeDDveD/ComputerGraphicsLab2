@@ -26,4 +26,9 @@ pip install -r requirements.txt
 python extractor.py --directory directory
 ```
 
-Если интерпретатор нет, то нужно скачать статически скомпилрованный `.exe`-файл [отсюда](). 
+Если интерпретатора нет, то нужно скачать статически скомпилрованный `exe`-файл [отсюда](https://github.com/sMeDDveD/ComputerGraphicsLab2/releases/download/1.0/extractor.exe).
+Тогда запустить его можно из консоли, передав нужную папку:
+```cmd
+extractor.exe -d directory
+```
+Или как обычный исполняемый файл, но тогда он будет искать изображения в директории, из которой был запущен.
