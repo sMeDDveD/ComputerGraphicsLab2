@@ -20,8 +20,9 @@
 Если установлен интерпретатор `Python`, то можно просто скормить скрипт ему:
 ```cmd
 git clone https://github.com/sMeDDveD/ComputerGraphicsLab2.git
-cd ComputerGraphcisLab2
-python -m venv env && venv\bin\Scripts\activate
+cd ComputerGraphicsLab2
+python -m venv env && env\Scripts\activate
+pip install -r requirements.txt
 python extractor.py --directory directory
 ```
 
